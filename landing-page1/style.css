@@ -1,0 +1,126 @@
+*{
+
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+box-sizing: border-box;
+}
+#header1{
+background-color: #1f2937;
+color:white;
+display:flex;
+justify-content:center;
+align-items: center;
+flex-direction:row;
+width: 100vw;
+margin-left: -8px;
+margin-top:-8px;
+padding-bottom: 30px;
+}
+#content1 p{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+} 
+p.right{
+display: block;
+font-size: 16px;
+justify-content:right;
+padding: 50px 0px 0px 0px ;
+}
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    width: 100px;
+    height: 100%;
+    align-self: flex-start;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(150, 146, 146);
+}
+.button{
+    padding: 2px 5px 2px 5px;
+    background-color: rgb(81, 81, 223);
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.logo{
+    align-self: flex-start;
+    height: 80px;
+    width: 80px;
+    padding: 1px 1px 1px 20px;
+
+}
+img{
+    height: 200px;
+    width: 600px;
+    padding: 20px 20px 10px 300px;
+}
+
+#content1{
+background-color:white;
+color: #1f2937;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: row;
+padding: 60px;
+gap: 20px;
+}
+
+#content2{
+background-color:#e5e7eb;
+color:#838486;
+font-size: 20px ;
+font: italic;
+display: flex;
+justify-content: center;
+flex-direction: row;
+padding: 40px;
+}
+#container{
+    background-color:white;
+    color: rgb(252, 249, 249);
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px ;
+}
+#container p a{
+    border: 1px solid rgb(240, 233, 233);
+    color:rgb(248, 242, 242);
+
+}
+#content3{
+    background-color: rgb(66, 128, 209);
+    padding: 1px 80px 1px 80px;
+}
+.box1{
+    border: 1px solid #a3bcebf8;
+    height: 200px;
+    width: 200px;  
+}
+.box2{
+    border: 1px solid #a3bcebf8;
+    height: 200px;
+    width: 200px;
+}
+.box3{border: 1px solid #a3bcebf8;
+    height: 200px;
+    width: 200px;}
+.box4{
+    border: 1px solid #a3bcebf8;
+    height: 200px;
+    width: 200px;
+}
+footer{
+background-color: #1f2937;
+color:white;
+text-align: center;
+padding: 20px;
+}
